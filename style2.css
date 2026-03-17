@@ -1,0 +1,46 @@
+body {
+    /* Define a imagem de fundo */
+    background-image: url('Imagens/Background/Onda\ azul.avif');
+
+    /* Faz a imagem cobrir toda a área */
+    background-size: cover;
+
+    /* Impede que a imagem se repita */
+    background-repeat: no-repeat;
+
+    /* Centraliza a imagem */
+    background-position: center;
+
+    /* Fixa a imagem ao rolar a página (opcional) */
+    background-attachment: scroll;
+
+    /* Garante que o body ocupe a altura total */
+    min-height: 70vh;
+    margin: 0;
+}
+
+:root {
+    --cor1: #ff85ffff;
+}
+
+id="Titulo" {
+    color: --cor1 ;
+    padding: 50px;
+    margin: auto;
+
+}
+
+main {
+    min-width: 320;
+    max-width: 800px;
+    background-color: var(--cor1);
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+id="Texto1" {
+    background-color: var(--cor1);
+    margin: auto;
+    padding: 50pc;
+}

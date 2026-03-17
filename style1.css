@@ -1,0 +1,27 @@
+body {
+    /* Define a imagem de fundo */
+    background-image: url('Imagens/Background/Universo.jpg');
+
+    /* Faz a imagem cobrir toda a área */
+    background-size: cover;
+
+    /* Impede que a imagem se repita */
+    background-repeat: no-repeat;
+
+    /* Centraliza a imagem */
+    background-position: center;
+
+    /* Fixa a imagem ao rolar a página (opcional) */
+    background-attachment: scroll;
+
+    /* Garante que o body ocupe a altura total */
+    min-height: 50vh;
+    margin: 0;
+}
+
+main{
+    background-color: gray;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
